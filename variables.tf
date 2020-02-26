@@ -1,4 +1,4 @@
-variable "description" {
+variable "key_description" {
   description = "The description of the key as viewed in AWS console"
   type        = string
   default     = ""

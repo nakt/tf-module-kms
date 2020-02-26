@@ -1,5 +1,5 @@
 resource "aws_kms_key" "this" {
-  description             = var.description
+  description             = var.key_description
   key_usage               = "ENCRYPT_DECRYPT"
   policy                  = var.key_policy
   deletion_window_in_days = var.deletion_window_in_days
